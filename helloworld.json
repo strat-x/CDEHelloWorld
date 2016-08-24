@@ -32,7 +32,7 @@
     "uniqueId": "ca.cde.helloworld.task.welcome_onboard",
     "description": "Use this task to welcome a release onboard",
     "serviceType": "TASK",
-    "url": "https://hook.io/strat-x/CDEHelloWorld",
+    "url": "https://hook.io/strat-x/CDEHelloWorld-onboard",
     "parameters": [{
         "ReleaseKey": "releaseKey",
         "uniqueId": "ca.cde.helloworld.task.welcome_onboard.releaseKey",
