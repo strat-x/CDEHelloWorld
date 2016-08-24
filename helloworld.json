@@ -1,0 +1,51 @@
+{
+  "name": "Hello World Plugin 1.0",
+  "vendor": "CA technologies",
+  "uniqueId": "ca.cde.helloworld",
+  "description": "CA Release Automation Hello World Plugin powered by Hook.io",
+  "iconUrl": "https://cloud.githubusercontent.com/assets/14964166/12397368/7823d66e-be15-11e5-9b94-86673ff64912.png",
+  "version": "1.0",
+  "relativeUrl": false,
+  "endpointTemplate": {
+    "name": "Hello World - Build",
+    "uniqueId": "ca.cde.helloworld.build.endpoint",
+    "description": "Hello World Endpoint",
+    "serviceType": "ENDPOINT",
+    "endPointType": "Hello World",
+    "parameters": [{
+        "name": "continent",
+        "uniqueId": "ca.cde.helloworld.endpoint.continent",
+        "displayName": "continent name",
+        "type": "string",
+        "isOptional": false
+      },
+      {
+        "name": "HelloworldPassword",
+        "uniqueId": "ca.cde.helloworld.endpoint.password",
+        "displayName": "Password",
+        "type": "password",
+        "isOptional": false
+      }]
+  },
+  "services": [{
+    "name": "Welcome onboard",
+    "uniqueId": "ca.cde.helloworld.task.welcome_onboard",
+    "description": "Use this task to welcome a release onboard",
+    "serviceType": "TASK",
+    "url": "https://hook.io/strat-x/CDEHelloWorld",
+    "parameters": [{
+        "ReleaseKey": "releaseKey",
+        "uniqueId": "ca.cde.helloworld.task.welcome_onboard.releaseKey",
+        "displayName": "release Key",
+        "type": "string",
+        "isOptional": false
+      },
+      {
+        "name": "releaseStatus",
+        "uniqueId": "ca.cde.helloworld.task.welcome_onboard.releaseStatus",
+        "displayName": "Release Status",
+        "type": "string",
+        "isOptional": true
+      }]
+  }]
+}
