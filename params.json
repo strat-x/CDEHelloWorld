@@ -1,0 +1,6 @@
+{
+  "name": "CDE Hello World",
+  "tagline": "a sample CA RA CDE microservice",
+  "body": "### Welcome to the CDE Hello World plugin page.\r\nThis plugin integrates with CA RA CDE and welcomes any new release that is marked as release candidate and pushed through the pipeline\r\n\r\n### Options\r\nthe plugin supports a \"welcome on board of our CD pipeline\" and \"thanks for allowing us to guide you through the CD pipeline today\". \r\n\r\n### Authors and Contributors\r\n2016, @STRAT-X.\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
