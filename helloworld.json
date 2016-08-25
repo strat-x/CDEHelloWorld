@@ -33,6 +33,13 @@
     "description": "Use this task to welcome a release onboard",
     "serviceType": "TASK",
     "url": "https://hook.io/strat-x/CDEHelloWorld",
-    "parameters": []
+    "parameters": [
+      {
+        "ReleaseKey": "gist",
+        "uniqueId": "ca.cde.helloworld.task.welcome_onboard.releaseKey",
+        "displayName": "release Key",
+        "type": "string",
+        "isOptional": true
+      }]
   }]
 }
